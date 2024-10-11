@@ -1,0 +1,38 @@
+.fundo_cinza{
+    display: flex;
+    height: 806px;
+    background-color: #E9E2EE;
+    justify-content: center;
+}
+
+#splash{
+    display: flex;
+    align-items: center;
+}
+
+.fundo_cinza>.titulo>h1{
+    font-family: LevenimBold;
+    color: #413752;
+    font-size: 50px;
+    letter-spacing: 0.15px;
+    margin-left: 60px;
+}
+
+.fundo_cinza>.titulo>p{
+    font-family: Levenim;
+    color: #413752;
+    letter-spacing: 0.15px;
+    margin-left: 60px;
+}
+
+.titulo{
+    width: 500px;
+    float: right;
+    padding-top: 200px;
+}
+
+#play{
+    width: 200px;
+    margin-left: 60px;
+    padding-top: 60px;
+}

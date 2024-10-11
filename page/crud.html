@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" type="imagex/svg" href="images/icone-viajou.svg">
+    <title>Crud</title>
+    <link rel="stylesheet" href="crud.css">
+</head>
+<body>
+    <header>
+        <img class="logo" src="/images/logo-login-crud.svg" alt="">
+    </header>
+
+    <div class="menu">
+        <ul>
+            <li id="item1">
+                <img src="images/icone-user-crud.svg" alt="">
+                <p>Usuários</p>
+            </li>
+            <li id="item2">
+                <img src="images/icone-eventos-crud.svg" alt="">
+                <p>Eventos</p>
+            </li>
+            <li id="item3">
+                <img src="/images/icone-panos-crud.svg" alt="">
+                <p>Planos</p>
+            </li>
+            <li id="item4">
+                <img src="images/icone-excursao-crud.svg" alt="">
+                <p>Excursões</p>
+            </li>
+            <li id="item5">
+                <img src="images/icone-viagemVirtual-crud.svg" alt="">
+                <p>Viagem virtual</p>
+            </li>
+        </ul>
+    </div>
+
+
+    <div class="cont_menu">
+        <div class="titulo_tab">
+            <div class="lado_esquerdo">
+                <h1>Membros</h1>
+                <div class="adicionar">
+                    <button >
+                        <a href="#novouser">Adicionar</a>
+                    </button>
+                </div>
+            </div>
+            <div class="adicionar">
+                <select name="ling" id="ling">
+                    <option value="lt">Filtro</option>
+                    <option value="l1">Opçao 1</option>
+                    <option value="l2">Opção 2</option>
+                    <option value="l3">Opção 3</option>
+                    <option value="l4">Opção 4</option>
+                </select>
+            </div>
+        </div>
+    </div>
+
+    <div class="tabela">
+        <table>
+            <thread>
+                <tr>
+                    <th>Foto</th>
+                    <th>ID</th>
+                    <th>Nome</th>
+                    <th>Email</th>
+                </tr>
+            </thread>
+
+            <tbody>
+                <tr class="linha">
+                    <td>
+                        <div class="quadrado"></div>
+                    </td>
+                    <td class="id">1</td>
+                    <td class="Nome">Sofia Rodrigues</td>
+                    <td class="email">sofia.rodrigures@germinare.org.br</td>
+                </tr>
+
+                <tr >
+                    <td><div class="quadrado"></div></td>
+                    <td class="id">2</td>
+                    <td class="Nome">Bruna Salla</td>
+                    <td class="email">bruna.salla@germinare.org.br</td>
+                </tr>
+
+                <tr>
+                    <td><div class="quadrado"></div></td>
+                    <td class="id">3</td>
+                    <td class="Nome">Breno Silva</td>
+                    <td class="email">breno.souza@germinare.org.br</td>
+                </tr>
+
+                <tr>
+                    <td><div class="quadrado"></div></td>
+                    <td class="id">4</td>
+                    <td class="Nome">Bianca Clarindo</td>
+                    <td class="email">bianca.clarindo@germinare.org.br</td>
+                </tr>
+
+                <tr>
+                    <td><div class="quadrado"></div></td>
+                    <td class="id">5</td>
+                    <td class="Nome">Melissa Pires</td>
+                    <td class="email">melissa.pires@germinare.org.br</td>
+                </tr>
+
+                <tr>
+                    <td><div class="quadrado"></div></td>
+                    <td class="id">6</td>
+                    <td class="Nome">Heloisa Machado</td>
+                    <td class="email">heloisa.machado@germinare.org.br</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <div class="container">
+        <article id="novouser" class="nv_user">
+            <h1>Adicionar usuário</h1>
+            <hr>
+            <label for="">Name</label>
+            <input type="text"
+            pattern="^[A-Za-zÀ-ÿ]{3,}(?: [A-Za-zÀ-ÿ]{2,})*$">
+            <label for="">Email</label>
+            <input type="text"
+            pattern="^[a-z]{3,30}?.[a-z0-9]*(\.[a-z0-9]+)*@[a-z0-9]+(\.[a-z0-9]+)+$">
+            <label for="">Foto de perfil</label>
+            <input type="text">
+            <div class="botoes">
+                <button>
+                    <a href="#sair">Cancelar</a>
+                </button>
+                <button>
+                    <a href="#continuar"> Adicionar</a>
+                </button>
+            </div>
+        </article>
+
+        
+
+
+</body>
+</html>

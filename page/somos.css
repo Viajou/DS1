@@ -1,0 +1,33 @@
+.somos{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 50px;
+    background-color: #E9E2EE;
+    margin-top: 100px;
+}
+
+.somos>h2{
+    color: rgba(65, 55, 82, 1);
+    width: 1400px;
+    font-family: LevenimBold;
+    text-align: center;
+    font-size: 40px;
+    margin: 15px;
+    
+}
+
+.somos>.nos{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 50px;
+}
+.somos>.nos>.conteudo{
+    font-family: Levenim;
+    width: 500px;
+    margin-left: 80px;
+    padding-top: 90px;
+    display: flex;
+    text-align: center;
+    vertical-align: middle;
+
+}
