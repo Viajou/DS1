@@ -4,6 +4,7 @@
     padding: 50px;
     background-color: #E9E2EE;
     margin-top: 100px;
+    justify-content: center;
 }
 
 .somos>h2{
@@ -16,12 +17,13 @@
     
 }
 
-.somos>.nos{
+.nos{
     display: flex;
     flex-wrap: wrap;
     padding: 50px;
 }
-.somos>.nos>.conteudo{
+
+.conteudo{
     font-family: Levenim;
     width: 500px;
     margin-left: 80px;

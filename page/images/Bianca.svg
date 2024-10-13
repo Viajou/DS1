@@ -1,24 +1,24 @@
-<svg width="242" height="271" viewBox="0 0 242 271" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-<path d="M36.2169 234.033C-4.24514 133.926 113.129 8.46717 204.835 50.2532C276.075 82.7138 235.085 220.624 164.367 254.198C118.906 275.782 55.0354 280.592 36.2169 234.033Z" fill="url(#paint0_linear_526_1522)"/>
-<rect width="235" height="103" fill="url(#pattern0_526_1522)"/>
-<mask id="mask0_526_1522" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="28" y="41" width="214" height="230">
-<path d="M36.6226 234.139C-3.75976 133.916 113.383 8.31333 204.909 50.1475C276.008 82.6454 235.099 220.714 164.52 254.327C119.149 275.936 55.4041 280.752 36.6226 234.139Z" fill="url(#paint1_linear_526_1522)"/>
+<svg width="214" height="271" viewBox="0 0 214 271" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<path d="M8.21694 234.033C-32.2451 133.926 85.1291 8.46717 176.835 50.2532C248.075 82.7138 207.085 220.624 136.367 254.198C90.9059 275.782 27.0354 280.592 8.21694 234.033Z" fill="url(#paint0_linear_526_1522)"/>
+<rect x="10" width="197" height="103" fill="url(#pattern0_526_1522)"/>
+<mask id="mask0_526_1522" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="0" y="41" width="214" height="230">
+<path d="M8.62263 234.139C-31.7598 133.916 85.3833 8.31333 176.909 50.1475C248.008 82.6454 207.099 220.714 136.52 254.327C91.1488 275.936 27.4041 280.752 8.62263 234.139Z" fill="url(#paint1_linear_526_1522)"/>
 </mask>
 <g mask="url(#mask0_526_1522)">
-<rect y="0.000488281" width="246.818" height="270.752" fill="url(#pattern1_526_1522)"/>
+<rect x="-28" y="0.000488281" width="246.818" height="270.752" fill="url(#pattern1_526_1522)"/>
 </g>
 <defs>
 <pattern id="pattern0_526_1522" patternContentUnits="objectBoundingBox" width="1" height="1">
-<use xlink:href="#image0_526_1522" transform="matrix(0.00307972 0 0 0.00702536 -0.0011549 0)"/>
+<use xlink:href="#image0_526_1522" transform="matrix(0.00367378 0 0 0.00702536 -0.194271 0)"/>
 </pattern>
 <pattern id="pattern1_526_1522" patternContentUnits="objectBoundingBox" width="1" height="1">
 <use xlink:href="#image0_526_1522" transform="matrix(0.0029304 0 0 0.00267818 -0.0010989 0)"/>
 </pattern>
-<linearGradient id="paint0_linear_526_1522" x1="135" y1="42" x2="135" y2="270" gradientUnits="userSpaceOnUse">
-<stop stop-color="#6EC9BF"/>
-<stop offset="1" stop-color="#458079"/>
+<linearGradient id="paint0_linear_526_1522" x1="107" y1="42" x2="107" y2="270" gradientUnits="userSpaceOnUse">
+<stop stop-color="#8E70D6"/>
+<stop offset="1" stop-color="#593B9F"/>
 </linearGradient>
-<linearGradient id="paint1_linear_526_1522" x1="135.211" y1="41.8848" x2="135.211" y2="270.147" gradientUnits="userSpaceOnUse">
+<linearGradient id="paint1_linear_526_1522" x1="107.211" y1="41.8848" x2="107.211" y2="270.147" gradientUnits="userSpaceOnUse">
 <stop stop-color="#8E70D6"/>
 <stop offset="1" stop-color="#593B9F"/>
 </linearGradient>
