@@ -40,7 +40,6 @@
     top: 150px;
 }
 .cont_telaIn > img{
-
     height: 30%;
     flex-wrap: wrap;
     width: 45%;
@@ -50,6 +49,7 @@
 .cont_telaIn{
     display: flex;
     flex-wrap: wrap;
+    z-index: -1;
 }
 
 /* Estilo do texto na cont_telaIn */

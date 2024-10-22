@@ -134,8 +134,30 @@ button{
     }
 }
 
-.container{
-    position: relative;
+.adicionar{
+
+    fieldset{
+        background-color: white;
+        color: rgba(65, 34, 103, 1);
+        border-color: rgba(65, 34, 103, 1);
+        border-radius: 10px;
+
+        legend{
+            text-align: center;
+        }
+
+        .buscar{
+            height: 20px;
+            width: 180px;
+            border: none;
+            border-radius: 10px;
+            padding-bottom: 5px;
+        }
+        .buscar:focus{
+            outline: none;
+        }
+            
+    }
 }
 
 .nv_user{
@@ -193,71 +215,120 @@ button{
 }
 
 
-
-.adicionar{
-
-    fieldset{
-        background-color: white;
-        color: rgba(65, 34, 103, 1);
-        border-color: rgba(65, 34, 103, 1);
-        border-radius: 10px;
-
-        legend{
-            text-align: center;
-        }
-
-        .buscar{
-            height: 20px;
-            width: 180px;
-            border: none;
-            border-radius: 10px;
-            padding-bottom: 5px;
-        }
-        .buscar:focus{
-            outline: none;
-        }
-            
-    }
-}
-
 .tabela{
     position: relative;
 }
 
-.tabela>table{
-    width: 70%;
-    font-family: LevenimBold;
-    background-color: white;
-    border-radius: 15px;
+.bloco{
     position: absolute;
-    bottom: 100px;
+    bottom: 400px;
     left: 300px;
-    
-    th{
-        table-layout: fixed;
-        width: 300px;
-        box-sizing: content-box;
-        height: 50px;
-    }
-    th:nth-child(1){
-        width: 120px;
-    }
-    
-    th:nth-child(2){
-        width: 120px;
+    display: flex;
+    background-color: white;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 5px 2px 20px 2px rgb(137, 137, 137);
+
+    .texto{
+        font-family: LevenimBold;
+        margin-top: 5px;
+        margin-left: 20px;
+
+        p{
+            color: gray;
+        }
+
+        h5{
+            font-size: 20px;
+        }
     }
 
-    td{
-        text-align: center;
-        height: 60px;
+    .botoes{
+        img{
+            height: 40px;
+            padding: 5px;
+        }
+
+        margin-left: 700px;
+        margin-top: 10px;
     }
 }
 
 
-.quadrado{
-    background-color: aquamarine;
-    height: 40px;
-    width: 40px;
+.tabela2{
+    position: relative;
+}
+
+.bloco2{
+    position: absolute;
+    bottom: 280px;
+    left: 300px;
+    display: flex;
+    background-color: white;
+    padding: 15px;
     border-radius: 10px;
-    margin-left: 55px;
+    box-shadow: 5px 2px 20px 2px rgb(137, 137, 137);
+
+    .texto2{
+        font-family: LevenimBold;
+        margin-top: 5px;
+        margin-left: 20px;
+
+        p{
+            color: gray;
+        }
+
+        h5{
+            font-size: 20px;
+        }
+    }
+
+    .botoes2{
+        img{
+            height: 40px;
+            padding: 5px;
+        }
+
+        margin-left: 700px;
+        margin-top: 10px;
+    }
+}
+
+.tabela3{
+    position: relative;
+}
+
+.bloco3{
+    position: absolute;
+    bottom: 160px;
+    left: 300px;
+    display: flex;
+    background-color: white;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 5px 2px 20px 2px rgb(137, 137, 137);
+
+    .texto3{
+        font-family: LevenimBold;
+        margin-top: 5px;
+        margin-left: 20px;
+
+        p{
+            color: gray;
+        }
+
+        h5{
+            font-size: 20px;
+        }
+    }
+
+    .botoes3{
+        img{
+            height: 40px;
+            padding: 5px;
+        }
+
+        margin-left: 700px;
+        margin-top: 10px;
+    }
 }

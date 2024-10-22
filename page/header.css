@@ -29,6 +29,7 @@ header{
     font-size: 22px;
     font-family: LevenimBold;
     height: 75px;
+    z-index: 10;
 }
 
 h1{
