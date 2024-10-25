@@ -1,0 +1,271 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+@font-face {
+    font-family: LevenimBold;
+    src: url("./Fonte/levenim-mt-bold.ttf");
+}
+
+@font-face {
+    font-family: Levenim;
+    src: url("./Fonte/levenim-mt-2.ttf");
+}
+
+body{
+    background-color: rgba(249, 241, 254, 1);
+}
+
+header{
+    background-color: rgba(65, 34, 103, 1);
+    height: 60px;
+    padding: 10px;
+}
+
+.logo{
+    width: 95px;
+}
+
+ul{
+    background-color: rgba(142, 112, 214, 1);
+    width: 200px;
+    height: 539px;
+    align-items: center;
+    padding-top: 110px;
+    
+}
+
+li{
+  display: flex;
+  padding: 20px;
+  padding-left: 18px;
+  font-family: LevenimBold;
+  color: aliceblue;
+}
+
+#item1{
+    p{
+        padding-top: 5px;
+    }
+    img{
+        width: 15px;
+        padding-right: 5px;
+    }
+}
+
+#item2{
+    p{
+        padding-top: 5px;
+    }
+    img{
+        width: 23px;
+        padding-right: 5px;
+    }
+}
+
+#item3{
+    p{
+        padding-top: 5px;
+    }
+    img{
+        width: 28px;
+        padding-right: 5px;
+    }
+}
+
+#item4{
+    p{
+        padding-top: 7px;
+    }
+    img{
+        width: 25px;
+        padding-right: 5px;
+    }
+}
+
+#item5{
+    p{
+        padding-top: 7px;
+    }
+    img{
+        width: 25px;
+        padding-right: 5px;
+    }
+}
+
+.cont_menu{
+    position: relative;
+}
+
+.titulo_tab{
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    bottom: 550px;
+    left: 350px;
+    justify-content: space-around;
+    font-family: LevenimBold;
+}
+
+.lado_esquerdo{
+    display: flex;
+
+    h1{
+        padding-right: 40px;
+    }
+}
+
+
+.container_planos{
+    position: relative;
+    
+}
+
+.preco{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    position: relative;
+    
+}
+
+
+.team{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 260px;
+    height: 500px;
+    border: solid 2px rgb(170, 170, 170);
+    border-radius: 37px;
+    margin: 25px;
+    margin-left: 20px;
+    box-shadow: 0px 0px 10px  rgba(0, 0, 0, 0.4);
+    position: absolute;
+    bottom: 70px;
+    left: 900px;
+}
+.team>img{
+    width: 265px;
+    margin-bottom: 18px;
+}
+
+.team>.texto_team{
+    display: flex;
+    align-items: center;
+    color: rgba(56,36,105,1);
+    
+}
+
+.team>.texto_team>.risco2{
+    height: 50px;
+    width: 0px;
+    border: 2px solid rgba(56,36,105,1);
+    margin-right: 5px;
+}
+
+.team>.texto_team>h2{
+    font-family: LevenimBold;
+    text-align: center;  
+}
+
+.team>.texto_team>h3{
+    font-family: LevenimBold;
+    font-size: 35px;
+    text-align: center;
+    margin-right: 20px;
+      
+}
+
+.team>.texto_team>h3>span{
+    font-family: LevenimBold;
+    font-size: 18px;
+    text-align: center;
+    vertical-align: top;
+      
+}
+
+.team>.texto_team>p{
+    font-family: LevenimBold;
+    text-align: center;
+    width: 50px;
+      
+}
+
+.team>p{
+    font-family: Levenim;
+    text-align: center;
+    width: 180px;
+    padding-top: 25px;
+}
+
+.preco_atual{
+    display: flex;
+    flex-direction: column;
+    color: rgba(142, 112, 214, 1);
+    
+    input{
+        width: 400px;
+        height: 40px;
+        border: 1px solid rgba(142, 112, 214, 1);
+        border-radius: 10px;
+        padding-left: 10px;
+    }
+
+    input:focus{
+        outline: none;
+    }
+
+    label{
+        font-family: LevenimBold;
+        font-size: 25px;
+    }
+}
+
+.modificar{
+    position: relative;
+}
+
+.plano{
+    position: absolute;
+    bottom: 250px;
+    left: 350px;
+}
+
+.novo_preco{
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+    color: rgb(66, 214, 165); 
+    
+    input{
+        width: 400px;
+        height: 40px;
+        border: 1px solid rgb(66, 214, 165);
+        border-radius: 10px;
+        padding-left: 10px;
+    }
+
+    input:focus{
+        outline: none;
+    }
+
+    label{
+        font-family: LevenimBold;
+        font-size: 25px;
+    }
+}
+
+.plano>button{
+    height: 40px;
+    width: 150px;
+    background-color: rgb(66, 214, 165);
+    border: none;
+    border-radius: 10px;
+    font-family: LevenimBold;
+    font-size: 18px;
+    color: white;
+    margin-top: 25px;
+    box-shadow: 2px 2px 15px 2px aquamarine ;
+}

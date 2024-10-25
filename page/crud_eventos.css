@@ -227,7 +227,7 @@ button{
     background-color: white;
     padding: 15px;
     border-radius: 10px;
-    box-shadow: 5px 2px 20px 2px rgb(137, 137, 137);
+    box-shadow: 2px 2px 8px 1px rgb(137, 137, 137);
 
     .texto{
         font-family: LevenimBold;
@@ -267,7 +267,7 @@ button{
     background-color: white;
     padding: 15px;
     border-radius: 10px;
-    box-shadow: 5px 2px 20px 2px rgb(137, 137, 137);
+    box-shadow: 2px 2px 8px 1px rgb(137, 137, 137);
 
     .texto2{
         font-family: LevenimBold;
@@ -306,7 +306,7 @@ button{
     background-color: white;
     padding: 15px;
     border-radius: 10px;
-    box-shadow: 5px 2px 20px 2px rgb(137, 137, 137);
+    box-shadow: 2px 2px 8px 1px rgb(137, 137, 137);
 
     .texto3{
         font-family: LevenimBold;
