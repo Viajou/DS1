@@ -13,24 +13,34 @@
     <div class="menu">
         <ul>
             <li id="item1">
-                <img src="images/icone-user-crud.svg" alt="">
-                <p>Usuários</p>
+                <a href="crud.html">
+                    <img src="images/icone-user-crud.svg" alt="">
+                    <p>Usuários</p>
+                </a>
             </li>
             <li id="item2">
-                <img src="images/icone-eventos-crud.svg" alt="">
-                <p>Eventos</p>
+                <a href="crud_eventos.html">
+                    <img src="images/icone-eventos-crud.svg" alt="">
+                    <p>Eventos</p>
+                </a>
             </li>
             <li id="item3">
-                <img src="/images/icone-panos-crud.svg" alt="">
-                <p>Planos</p>
+                <a href="crud_planos.html">
+                    <img src="/images/icone-panos-crud.svg" alt="">
+                    <p>Planos</p>
+                </a>
             </li>
             <li id="item4">
-                <img src="images/icone-excursao-crud.svg" alt="">
-                <p>Excursões</p>
+                <a href="curd_excursão.html">
+                    <img src="images/icone-excursao-crud.svg" alt="">
+                    <p>Excursões</p>
+                </a>
             </li>
             <li id="item5">
-                <img src="images/icone-viagemVirtual-crud.svg" alt="">
-                <p>Viagem virtual</p>
+                <a href="">
+                    <img src="images/icone-viagemVirtual-crud.svg" alt="">
+                    <p>Viagem virtual</p>
+                </a>
             </li>
         </ul>
     </div>
@@ -100,7 +110,7 @@
 
     <div class="container">
         <article id="novouser" class="nv_user">
-            <h1>Adicionar evento</h1>
+            <h1>Adicionar usuário</h1>
             <hr>
             <label for="">Name</label>
             <input type="text"
@@ -108,16 +118,20 @@
             <label for="">Email</label>
             <input type="text"
             pattern="^[a-z]{3,30}?.[a-z0-9]*(\.[a-z0-9]+)*@[a-z0-9]+(\.[a-z0-9]+)+$">
+            <label for="">Senha</label>
+            <input type="text"
+            pattern="^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[@$_#&])[A-Za-z\d@$#&_]{8,20}$">
             <label for="">Foto de perfil</label>
             <input type="text">
             <div class="botoes">
                 <button>
-                    <a href="">Cancelar</a>
+                    <a href="">Adicionar</a>
                 </button>
                 <button>
-                    <a href=""> Adicionar</a>
+                    <a href=""> Cancelar</a>
                 </button>
             </div>
         </article>
+    </div>
 </body>
 </html>

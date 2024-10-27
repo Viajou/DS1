@@ -17,9 +17,12 @@
                     <input type="email" id="email" name="email" placeholder="Exemplo: user@gmail.com" required>
         
                     <label for="senha">Senha:</label>
-                    <input type="password" id="senha" name="senha" required>
+                    <input type="password" id="senha" name="senha" required
+                    pattern="^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[@$_#&])[A-Za-z\d@$#&_]{8,20}$">
         
-                    <button type="submit">Administração</button>
+                    <button type="submit">
+                        <a href="crud.html">Administração</a>
+                    </button>
 
                 <button type="submit">DashBoard</button>
                 </form>
