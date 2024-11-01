@@ -73,6 +73,7 @@ button{
     margin-top: 30px;
     transition: 0.3s;
     font-family: LevenimBold;
+    text-decoration: none;
 }
     
 @media(max-width: 768px) {
