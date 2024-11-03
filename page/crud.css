@@ -263,6 +263,8 @@ button{
     position: absolute;
     bottom: 100px;
     left: 300px;
+
+
     
     th{
         table-layout: fixed;
@@ -282,6 +284,11 @@ button{
         text-align: center;
         height: 60px;
     }
+}
+
+table-section th{
+    background-color: rgba(65, 34, 103, 1);
+    color: white;
 }
 
 

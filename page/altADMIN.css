@@ -1,0 +1,122 @@
+@font-face {
+    font-family: LevenimBold;
+    src: url("./Fonte/levenim-mt-bold.ttf");
+}
+
+@font-face {
+    font-family: Levenim;
+    src: url("./Fonte/levenim-mt-2.ttf");
+}
+
+*{
+    padding: 0%;
+    margin: 0%;
+}
+
+.fundo {
+    background-image: url(/images/Fundo_roxo.svg);
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+    display: flex; /* Corrigido para centralizar o conteúdo */
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.fundo h1 {
+    font-family: LevenimBold;
+    text-align: center;
+    color: white;
+    padding-bottom: 50px;
+    padding-top: 0%;
+}
+
+.formulario {
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+    width: 100%; /* Ajuste opcional para ocupar largura total */
+}
+
+form {
+    background-color: white;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column; /* Alinha itens verticalmente */
+    align-items: center;
+    height: 90%;
+    width: 25%;
+    padding: 20px;
+}
+
+form h2 {
+    font-family: LevenimBold;
+    text-align: center;
+    color: rgb(57, 0, 90);
+}
+
+form label {
+    font-family: LevenimBold;
+    padding-right: 10px;
+    color: rgb(57, 0, 90);
+}
+
+form input {
+    font-family: Levenim;
+    padding: 10px;
+    height: 3vh; /* Corrigido para dar mais altura */
+    width: 50%;
+    border-radius: 10px;
+    border: solid 2px rgb(57, 0, 90);
+}
+
+form input:focus{
+    outline: none;
+}
+
+.nome, .email, .senha, .id, .foto {
+    padding-top: 30px; /* Ajuste opcional para diminuir */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%; /* Garante que o espaçamento seja distribuído */
+}
+
+.botoes {
+    display: flex;
+    justify-content: center;
+    gap: 30px; /* Espaçamento entre os botões */
+    margin-top: 20px;
+}
+
+button {
+    height: 50px;
+    width: 130px;
+    border-radius: 12px;
+    background-color: transparent;
+    border: solid 2px white;
+    margin-top: 40px;
+    box-shadow: 1px 1px 10px 1px rgb(218, 155, 255);
+}
+
+button:active{
+    border: solid 2px rgb(218, 155, 255);
+    a{
+        color: rgb(218, 155, 255);
+    }
+}
+
+button a {
+    color: white;
+    text-decoration: none;
+    font-family: LevenimBold;
+    font-size: 20px;
+}
+
+/* @media(max-width: 750px){
+    .formulario{
+        flex-direction: column;
+        justify-content: center;
+    }
+} */
